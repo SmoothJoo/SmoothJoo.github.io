@@ -12,23 +12,23 @@ class App extends Component{
 		joblist: [
 		{
 			id: 1,
-			title: 'Web designer',
+			title: 'web designer',
 			companyName: 'Big red recruitment',
 			dateApplied: '08/22/2019',
 			completed: false
 		},
 		{
 			id: 2,
-			title: 'Web designer',
-			companyName: 'red recruitment',
+			title: 'junior front end developer',
+			companyName: 'Oscar Technology',
 			dateApplied: '09/22/2019',
 			completed: false
 			
 		},
 		{
 			id: 3,
-			title: 'Web designer',
-			companyName: 'Big recruitment',
+			title: 'web devveloper',
+			companyName: 'formation media',
 			dateApplied: '09/22/2019',
 			completed: false
 			

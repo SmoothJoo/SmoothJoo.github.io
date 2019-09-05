@@ -39,6 +39,7 @@ export class AddItem extends Component {
 			  	<input
 			  		type="date"
 			  		name="dateApplied"
+			  		style={{margin: '5px'}}
 			  		value={this.state.dateApplied}
 			  		onChange={this.onChange}
 			  	/>

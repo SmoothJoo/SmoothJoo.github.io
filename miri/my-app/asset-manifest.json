@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/miri/my-app/static/css/main.ded6dd8f.chunk.css",
+    "main.js": "/miri/my-app/static/js/main.963d546e.chunk.js",
+    "main.js.map": "/miri/my-app/static/js/main.963d546e.chunk.js.map",
+    "runtime~main.js": "/miri/my-app/static/js/runtime~main.6d379308.js",
+    "runtime~main.js.map": "/miri/my-app/static/js/runtime~main.6d379308.js.map",
+    "static/js/2.062a4312.chunk.js": "/miri/my-app/static/js/2.062a4312.chunk.js",
+    "static/js/2.062a4312.chunk.js.map": "/miri/my-app/static/js/2.062a4312.chunk.js.map",
+    "index.html": "/miri/my-app/index.html",
+    "precache-manifest.829d4d6e588c81c343e40dd148a97a1e.js": "/miri/my-app/precache-manifest.829d4d6e588c81c343e40dd148a97a1e.js",
+    "service-worker.js": "/miri/my-app/service-worker.js",
+    "static/css/main.ded6dd8f.chunk.css.map": "/miri/my-app/static/css/main.ded6dd8f.chunk.css.map"
+  }
+}

@@ -74,6 +74,9 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+.portfolio-img{
+max-width: 100%;
+}
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Search movies you want to find</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+  
+        <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md">Search movies and compare the results!</nav>
+        <main role="main" class="container">
+            <div class="row">
+              <div class="col">
+                <div id="left-search"></div> 
+                <div id="left-summary"></div>
+              </div>
+              <div class="col">
+                <div id="right-search"></div>
+                <div id="right-summary"></div>
+              </div>
+            </div>
+        </main>
+        
+        <!-- Bootstrap core JavaScript -->
+        <script src="../vendor/jquery/jquery.min.js"></script>
+        <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <script src="debounce.js"></script>
+        <script src="autocomplete.js"></script>
+        <script src="index.js"></script>
+        <script> 
+        screen.width < 768 ? $('#right-search div.dropdown-menu').addClass('dropdown-menu-right') : $('#right-search div.dropdown-menu').removeClass('dropdown-menu-right');
+        </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </body>
+</html>
